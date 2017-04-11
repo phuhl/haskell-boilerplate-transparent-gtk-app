@@ -31,12 +31,12 @@ library
 
   default-language:    Haskell2010
 
-executable transparentHS-exe
+executable transparentHS
   hs-source-dirs:      app
   main-is:             Main.hs
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   build-depends:       base
-                     , transparentHS
+                     , haskell-boilerplate-transparent-gtk-app
   default-language:    Haskell2010
 
 test-suite transparentHS-test
@@ -44,7 +44,7 @@ test-suite transparentHS-test
   hs-source-dirs:      test
   main-is:             Spec.hs
   build-depends:       base
-                     , transparentHS
+                     , haskell-boilerplate-transparent-gtk-app
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   default-language:    Haskell2010
 

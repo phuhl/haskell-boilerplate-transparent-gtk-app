@@ -10,7 +10,7 @@ stack setup
 stack build
 
 # run
-stack exec transparentHS-exe
+stack exec transparentHS
 
 #+END_SRC
 
