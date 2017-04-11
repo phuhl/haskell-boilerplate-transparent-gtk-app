@@ -1,8 +1,8 @@
-name:                transparentHS
+name:                haskell-boilerplate-transparent-gtk-app
 version:             0.1.0.0
 -- synopsis:
 -- description:
-homepage:            https://github.com/phuhl/transparentHS#readme
+homepage:            https://github.com/phuhl/haskell-boilerplate-transparent-gtk-app#readme
 license:             BSD3
 license-file:        LICENSE
 author:              Philipp Uhl
@@ -50,4 +50,4 @@ test-suite transparentHS-test
 
 source-repository head
   type:     git
-  location: https://github.com/phuhl/transparentHS
+  location: https://github.com/phuhl/haskell-boilerplate-transparent-gtk-app

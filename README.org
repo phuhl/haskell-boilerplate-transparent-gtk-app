@@ -1,1 +1,21 @@
-# transparentHS
+* Haskell Boilerplate for Gtk App with Alpha-Enabled Background
+
+Boilerplate for a GTK+ 3 application with transparent background.
+
+** Dependencies
+
+- haskell-gtk
+
+
+** Install
+
+#+BEGIN_SRC shell-script
+
+stack setup
+stack build
+
+# run
+stack exec transparentHS-exe
+
+#+END_SRC
+
